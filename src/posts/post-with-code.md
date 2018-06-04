@@ -1,10 +1,9 @@
 ---
 title: Post with code
 date: '2018-06-04'
-image: /static/assets/potato.jpg
+image: /assets/potato.jpg
 ---
-
-![Potatos](/assets/potato.jpg)
+![Potatoes](/assets/potato.jpg)
 
 ```
 let someVar = 'what about it';
