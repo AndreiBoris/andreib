@@ -34,6 +34,7 @@ module.exports = {
         excerpt_separator: `<!-- end -->`,
       },
     },
+    'gatsby-plugin-netlify-cms', // admin section for application
   ],
 }
 
