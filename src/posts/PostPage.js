@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 class PostPage extends Component {
   render() {
     const { data } = this.props
+    if (!data) return null // this may be necessary to be able to upload images through CMS (?)
     return (
       <article>
         <span>{data.markdownRemark.frontmatter.date}</span>

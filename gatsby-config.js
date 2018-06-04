@@ -18,6 +18,14 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      // Gatsby needs to know about the directory associated with CMS-uploaded images
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'img',
+        path: `${__dirname}/static/assets`,
+      },
+    },
 
     {
       // Tell Gatsby that we should be able to query markdown files from the specified directory
