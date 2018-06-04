@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: bean-done/gatsbynetlify
 
 media_folder: static/assets
 
